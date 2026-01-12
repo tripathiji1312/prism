@@ -1,3 +1,22 @@
+/* --- VISUALIZER CONTAINER --- */
+.visualizer-container {
+    position: relative;
+    /* Scale down the 600px canvas to fit smaller screens (0.65 * 600 = ~390px) */
+    transform: scale(0.65);
+    /* Ensure scaling happens from center */
+    transform-origin: center center;
+    
+    width: 600px;
+    height: 600px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    opacity: 0; 
+    transition: opacity 1.5s ease-in-out;
+}
+
 #overlay {
   position: absolute;
   top: 0;

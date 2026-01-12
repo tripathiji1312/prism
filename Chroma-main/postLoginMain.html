@@ -41,19 +41,27 @@
         <p id="uploadStatus" style="color: white; text-align: center; margin-top: 10px"></p>
       </div>
 
-      <div class="header">
+      <div class="header" id="mainHeader">
         <div class="btn-menu" id="menuTrigger">menu</div>
         <div class="btn-login"><a href="loginpage.html">Wallet</a></div>
       </div>
 
-      <div class="header-box" style="margin-bottom: 10px">
+      <div class="header-box" id="mainHeadingBox" style="margin-bottom: 10px">
         <p class="heading">CHROMA</p>
       </div>
 
-      <div class="main-content">
+      <div class="main-content waiting-to-start" id="mainContent">
+        
         <div id="overlay">
-          <span>START</span>
-          <p>[ CLICK TO REVEAL ]</p>
+            <span>START</span>
+            <p>[ CLICK TO REVEAL ]</p>
+        </div>
+
+        <div class="left-section">
+          <div class="visualizer-container">
+            <video id="webcam" autoplay playsinline muted></video>
+            <canvas id="visualizer" width="600" height="600"></canvas>
+          </div>
         </div>
 
         <div class="visualizer-container" id="visualizerContainer">
