@@ -319,7 +319,9 @@ See [RUNBOOK.md](RUNBOOK.md) for complete deployment and integration instruction
 2.  **Subsurface Scattering:** Jensen, H. W., et al. (2001). *"A Practical Model for Subsurface Light Transport."* SIGGRAPH.
 3.  **rPPG - CHROM Method:** De Haan, G. & Jeanne, V. (2013). *"Robust Pulse Rate from Chrominance-Based rPPG."* IEEE TBME.
 4.  **rPPG - POS Method:** Wang, W., et al. (2017). *"Algorithmic Principles of Remote PPG."* IEEE TBME.
-5.  **Soulbound Tokens:** EIP-5192. [https://eips.ethereum.org/EIPS/eip-5192](https://eips.ethereum.org/EIPS/eip-5192)
+5.  **VidFormer (Planned):** VidFormer (2025). *"End-to-End Remote Photoplethysmography via Hybrid 3D-CNN Transformer."* Target architecture for Phase 2.
+6.  **Zero-Knowledge ML (Planned):** EZKL. [https://docs.ezkl.xyz](https://docs.ezkl.xyz). Target framework for Phase 3.
+7.  **Soulbound Tokens:** EIP-5192. [https://eips.ethereum.org/EIPS/eip-5192](https://eips.ethereum.org/EIPS/eip-5192)
 
 ---
 
